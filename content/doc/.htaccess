@@ -30,7 +30,7 @@ RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
 #ModPagespeedRewriteLevel CoreFilters
 #ModPagespeedEnableFilters collapse_whitespace
 #ModPagespeedEnableFilters remove_comments
-3ModPagespeedInPlaceResourceOptimization on
+#ModPagespeedInPlaceResourceOptimization on
 
 # Do not optimize these resources which are used for blogpost
 #ModPagespeedDisallow */puzzle_optimized_to_low_quality_webp.webp
